@@ -1,0 +1,8 @@
+,user_id,device_name,operating_system,province,city,age,gender
+0,1000014754,DVC-AN20,Android,江西,南昌,A_40+,male
+1,1000026896,vivoX21A,Android,四川,成都,A_30_39,male
+2,1000303258,vivoY66,Android,内蒙古,锡林郭勒,A_25_29,male
+3,1000346468,AQM-AL00,Android,福建,泉州,A_30_39,male
+4,1000353866,iPhone7Plus,IOS,辽宁,鞍山,A_40+,female
+5,1000359004,VKY-AL00,Android,浙江,宁波,A_40+,male
+6,1000382512,V2002A,Android,广东,东莞,A_25_29,male

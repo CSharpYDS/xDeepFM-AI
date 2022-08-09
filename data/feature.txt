@@ -1,0 +1,130 @@
+user_id					user_id
+item_id					item_id
+
+曝光时间				exposure_time
+网络环境				internet_environment
+刷新次数				number_of_refreshes
+曝光位置				exposure_position
+是否点击				whether_to_click
+消费时长（秒）			consumption_time
+曝光日期				exposure_date
+
+index					index
+
+设备名称				device_name
+操作系统				operating_system
+所在省					province
+所在市					city
+年龄					age
+性别					gender
+
+标题					title
+一级分类				primary
+二级分类				secondary
+关键词					key_words
+图片数量				number_of_pictures
+发文时间				posting_time
+发文日期				date_of_publication
+从发文到曝光的日期差	date_dif_from_pu_to_exposure
+曝光日期_idx			exposure_date_idx
+
+过去7天_特征(user_id)_曝光总数				past_7_days_feature(user_id)_exposure_total
+过去7天_特征(item_id)_曝光总数				past_7_days_feature(item_id)_exposure_total
+
+过去7天_特征(一级分类)_曝光总数				past_7_days_feature(primary_classification)_exposure_total
+过去7天_特征(二级分类)_曝光总数				past_7_days_feature(secondary_classification)_exposure_total
+
+过去7天_特征(user_id_一级分类)_曝光总数		past_7_days_feature(user_id_primary_classification)_exposure_total
+过去7天_特征(user_id_二级分类)_曝光总数		past_7_days_feature(user_id_secondary_classification)_exposure_total
+
+过去7天_特征(user_id)_点击率mean			past_7_days_feature(user_id)_ctr_mean
+过去7天_特征(user_id)_点击总数sum			past_7_days_feature(user_id)_ctr_total_sum
+
+过去7天_特征(item_id)_点击率mean			past_7_days_feature(item_id)_ctr_mean
+过去7天_特征(item_id)_点击总数sum			past_7_days_feature(item_id)_ctr_total_sum
+
+过去7天_特征(一级分类)_点击率mean			past_7_days_feature(primary_classification)_ctr_mean
+过去7天_特征(一级分类)_点击总数sum			past_7_days_feature(primary_classification)_ctr_total_sum
+过去7天_特征(二级分类)_点击率mean			past_7_days_feature(secondary_classification)_ctr_mean
+过去7天_特征(二级分类)_点击总数sum			past_7_days_feature(secondary_classification)_ctr_total_sum
+		
+过去7天_特征(user_id_一级分类)_点击率mean	past_7_days_feature(user_id_primary_classification)_ctr_mean
+过去7天_特征(user_id_一级分类)_点击总数sum	past_7_days_feature(user_id_primary_classification)_ctr_total_sum
+
+过去7天_特征(user_id_二级分类)_点击率mean	past_7_days_feature(user_id_secondary_classification)_ctr_mean
+过去7天_特征(user_id_二级分类)_点击总数sum	past_7_days_feature(user_id_secondary_classification)_ctr_total_sum
+
+过去7天_特征(user_id)_消费时长mean			past_7_days_feature(user_id)_consumption_time_mean
+过去7天_特征(user_id)_消费时长std			past_7_days_feature(user_id)_consumption_time_std
+过去7天_特征(user_id)_消费时长sum			past_7_days_feature(user_id)_consumption_time_sum
+		
+过去7天_特征(item_id)_消费时长mean			past_7_days_feature(item_id)_consumption_time_mean
+过去7天_特征(item_id)_消费时长std			past_7_days_feature(item_id)_consumption_time_std
+过去7天_特征(item_id)_消费时长sum           past_7_days_feature(item_id)_consumption_time_sum
+			
+过去7天_特征(一级分类)_消费时长mean			past_7_days_feature(primary_classification)_consumption_time_mean
+过去7天_特征(一级分类)_消费时长std			past_7_days_feature(primary_classification)_consumption_time_std
+过去7天_特征(一级分类)_消费时长sum	        past_7_days_feature(primary_classification)_consumption_time_sum
+		
+过去7天_特征(二级分类)_消费时长mean			past_7_days_feature(secondary_classification)_consumption_time_mean
+过去7天_特征(二级分类)_消费时长std			past_7_days_feature(secondary_classification)_consumption_time_std
+过去7天_特征(二级分类)_消费时长sum	        past_7_days_feature(secondary_classification)_consumption_time_sum
+		
+过去7天_特征(user_id_一级分类)_消费时长mean	past_7_days_feature(user_id_primary_classification)_consumption_time_mean
+过去7天_特征(user_id_一级分类)_消费时长std	past_7_days_feature(user_id_primary_classification)_consumption_time_std
+过去7天_特征(user_id_一级分类)_消费时长sum	past_7_days_feature(user_id_primary_classification)_consumption_time_sum
+
+过去7天_特征(user_id_二级分类)_消费时长mean	past_7_days_feature(user_id_secondary_classification)_consumption_time_mean
+过去7天_特征(user_id_二级分类)_消费时长std	past_7_days_feature(user_id_secondary_classification)_consumption_time_std
+过去7天_特征(user_id_二级分类)_消费时长sum	past_7_days_feature(user_id_secondary_classification)_consumption_time_sum
+
+
+user_id_exposure_total
+item_id_exposure_total
+
+primary_exposure_total
+secondary_exposure_total
+
+user_id_primary_exposure_total
+user_id_secondary_exposure_total
+
+user_id_ctr_mean
+user_id_ctr_total_sum
+
+item_id_ctr_mean
+item_id_ctr_total_sum
+
+primary_ctr_mean
+primary_ctr_total_sum
+secondary_ctr_mean
+secondary_ctr_total_sum
+
+user_id_primary_ctr_mean
+user_id_primary_ctr_total_sum
+
+user_id_secondary_ctr_mean
+user_id_secondary_ctr_total_sum
+
+user_id_consumption_time_mean
+user_id_consumption_time_std
+user_id_consumption_time_sum
+
+item_id_consumption_time_mean
+item_id_consumption_time_std
+item_id_consumption_time_sum
+
+primary_consumption_time_mean
+primary_consumption_time_std
+primary_consumption_time_sum
+
+secondary_consumption_time_mean
+secondary_consumption_time_std
+secondary_consumption_time_sum
+
+user_id_primary_consumption_time_mean
+user_id_primary_consumption_time_std
+user_id_primary_consumption_time_sum
+
+user_id_secondary_consumption_time_mea
+user_id_secondary_consumption_time_std
+user_id_secondary_consumption_time_sum

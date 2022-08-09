@@ -1,0 +1,16 @@
+# -*- coding: UTF-8 -*-
+"""
+@Project ：recommender 
+@File    ：__init__.py.py
+@IDE     ：PyCharm 
+@Author  ：YDS
+@Date    ：2022/7/27 12:11 
+"""
+
+
+def main():
+    print("Hello World")
+
+
+if __name__ == '__main__':
+    main()
